@@ -19,7 +19,7 @@ namespace Myshop.DataAccess.InMemory
             if(products == null)
             {
                 products = new List<Product>();
-
+                 
             }
         }
         public void Commit()
