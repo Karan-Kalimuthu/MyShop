@@ -20,6 +20,9 @@ namespace MyShop.Core.Models
         public string Category { get; set; }
         public string Image { get; set; }
 
-        
+        public static implicit operator Product(List<Product> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
