@@ -21,7 +21,7 @@ namespace MyShop.WebUI.Controllers
         public ActionResult Index(string Category = null)
         {
 
-            List<Product> products ;//= context.Collection().ToList();
+            List<Product> products = context.Collection().ToList();
             List<ProductCategory> categories = productCategories.Collection().ToList();
 
             if (Category == null )
