@@ -54,9 +54,9 @@ namespace MyShop.WebUI
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "426814621320732",
+               appSecret: "3ba3e01d4896367b8b2e3d922de7e63d");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

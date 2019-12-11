@@ -34,7 +34,7 @@ namespace MyShop.WebUI.Controllers
                 "Order Complete"
             };  
             Order order = orderService.GetOrder(Id);
-            return View();
+            return View(order);
         }
 
         [HttpPost]
